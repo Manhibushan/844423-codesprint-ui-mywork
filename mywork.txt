@@ -1,0 +1,74 @@
+Gift card orderform design [place gift card order page]
+Containing giftcard amount, receipent name, shipping address[street address,city,state,country,pincode], buyers name, phone number, email and place order button.
+
+
+SAMPLE CODE SNIPPET:
+
+<form class="form-form" action="vieworder.html"
+		onsubmit="return addItemFormSubmit()" name="form_200371983600450"
+		id="200371983600450" accept-charset="utf-8" autocomplete="on">
+		<input type="hidden" name="formID" value="200371983600450" /> <input
+			type="hidden" id="JWTContainer" value="" /> <input type="hidden"
+			id="cardinalOrderNumber" value="" />
+		<div role="main" class="form-all">
+			<ul class="form-section page-section">
+				<li id="cid_22" class="form-input-wide" data-type="control_head">
+					<div class="form-header-group ">
+						<div class="header-text httal htvam">
+							<h2 id="header_22" class="form-header" data-component="header">
+								Gift Order</h2>
+						</div>
+					</div>
+				</li>
+				<li class="form-line" data-type="control_fullname" id="id_1"><label
+					class="form-label form-label-left form-label-auto" id="label_1"
+					for="prefix_1"> Gift Card Amount : </label>
+					<div id="cid_1" class="form-input">
+						<div data-wrapper-react="true">
+
+							<span class="form-sub-label-container "
+								style="vertical-align: top"> <input type="text"
+								id="prefix_1" name="rupees" class="form-textbox validate[required]" size="6"
+								value="" data-component="prefix"
+								aria-labelledby="label_1 sublabel_1_prefix" /> <span
+								class="phone-separate" aria-hidden="true"> : </span> <label
+								class="form-sub-label" for="prefix_1" id="rupee"
+								style="min-height: 13px" aria-hidden="false"> INR </label>
+							</span> <span class="form-sub-label-container "
+								style="vertical-align: top"> <input type="text"
+								id="first_1" name="paisa" class="form-textbox validate[required]" size="10"
+								value="" data-component="first"
+								aria-labelledby="label_1 sublabel_1_first" /> <label
+								class="form-sub-label" for="first_1" id="paisa"
+								style="min-height: 13px" aria-hidden="false">Paisa </label>
+							</span>
+
+						</div>
+					</div></li>
+				<li class="form-line" data-type="control_textbox" id="id_19"><label
+					class="form-label form-label-left form-label-auto" id="label_19"
+					for="input_19"> Receipent Name : </label>
+					<div id="cid_19" class="form-input">
+						<div data-wrapper-react="true">
+							<span class="form-sub-label-container "
+								style="vertical-align: top"> <input type="text"
+								id="prefix_1" name="firstName" class="form-textbox validate[required]" size="21"
+								value="" data-component="prefix"
+								aria-labelledby="label_1 sublabel_1_prefix" /> <label
+								class="form-sub-label" for="prefix_1" id="sublabel_1_prefix"
+								style="min-height: 13px" aria-hidden="false"> FirstName
+							</label>
+							</span> <span class="form-sub-label-container "
+								style="vertical-align: top"> <input type="text"
+								id="first_1" name="lastName" class="form-textbox validate[required]" size="21"
+								value="" data-component="first"
+								aria-labelledby="label_1 sublabel_1_first" /> <label
+								class="form-sub-label" for="first_1" id="sublabel_1_first"
+								style="min-height: 13px" aria-hidden="false">LastName</label>
+							</span> ..................
+................................
+.................................
+....................
+
+END OF SAMPLE CODE
+
